@@ -2,9 +2,33 @@
   text-align: center;
 }
 
+.taskList{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  margin: 10px;
+  border: 0.5px solid white;
+  padding: 10px
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+button{
+  padding: 8px;
+  width: 80px;
+  background-color: #5a5b5e;
+  border: none;
+  border-radius: 5%;
+}
+
+input{
+  padding: 10px;
+  width: 220px;
+  margin-bottom: 5px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
